@@ -1,12 +1,44 @@
 
 body {
-    background-color: Bisque ;
-}
-
+    
+    background-image: url("2.png");
+   
+} 
 h1 {
     color: black;
     text-align: center;
-    font-family: verdana;
+    font-family: Georgia;
     font-size: 38px;
+    
 }
 
+h2 {
+    color: rgb(82, 1, 1);
+    font-family: Times New Roman;
+    font-size: 35px;
+    text-decoration: underline;
+}
+h3 {
+    color: rgb(99, 36, 0);
+    font-family: Arial;
+    font-size: 32px;
+    text-decoration: underline;
+}
+h4 {
+    color: rgb(117, 100, 0);
+    font-family: Verdana;
+    font-size: 30px;
+    text-decoration: underline;
+}
+h5 {
+    color: rgb(43, 107, 0);
+    font-family: Courier New;
+    font-size: 29px;
+    text-decoration: underline;
+}
+h6 {
+    color: rgb(20, 165, 170);
+    font-family: Lucida Console;
+    font-size: 27px;
+    text-decoration: underline;
+}
