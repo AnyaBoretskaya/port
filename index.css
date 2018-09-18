@@ -9,36 +9,56 @@ h1 {
     text-align: center;
     font-family: Georgia;
     font-size: 38px;
+   
+ 
     
 }
 
 h2 {
-    color: rgb(82, 1, 1);
-    font-family: Times New Roman;
+    color: rgb(158, 6, 6);
+    font-family: courier;
     font-size: 35px;
-    text-decoration: underline;
+    text-align: center;
+    font-size:3vw;
+    border-style: double;
+    border-width: 15px;
+
+ 
 }
 h3 {
-    color: rgb(99, 36, 0);
-    font-family: Arial;
+    color: rgb(136, 52, 4);
+    font-family: courier;
     font-size: 32px;
-    text-decoration: underline;
+    text-align: center;
+    font-size:3vw;
+    border-style: double;
+    border-width: 15px;
+
 }
 h4 {
     color: rgb(117, 100, 0);
-    font-family: Verdana;
+    font-family: courier;
     font-size: 30px;
-    text-decoration: underline;
+    border-style: double;
+    border-width: 15px;
+    text-align: center;
+    font-size:3vw;
 }
 h5 {
     color: rgb(43, 107, 0);
-    font-family: Courier New;
+    font-family: courier;
     font-size: 29px;
-    text-decoration: underline;
+    border-style: double;
+    border-width: 15px;
+    text-align: center;
+    font-size:3vw;
 }
 h6 {
     color: rgb(20, 165, 170);
-    font-family: Lucida Console;
+    font-family: courier;
     font-size: 27px;
-    text-decoration: underline;
+    border-style: double;
+    border-width: 15px;
+    text-align: center;
+    font-size:3vw;
 }
