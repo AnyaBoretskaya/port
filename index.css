@@ -1,12 +1,25 @@
 
-body {
-    
-    background-image: url("2.png");
+body
+{
+    background-image: url("3.png");
     font-size: 26px;
     font-style: oblique;
     
-   
-} 
+   } 
+{margin:25px;}
+
+div.polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+ 
 h1 {
     color: black;
     text-align: center;
