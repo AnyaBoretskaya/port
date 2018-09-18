@@ -2,6 +2,9 @@
 body {
     
     background-image: url("2.png");
+    font-size: 26px;
+    font-style: oblique;
+    
    
 } 
 h1 {
@@ -61,4 +64,11 @@ h6 {
     border-width: 15px;
     text-align: center;
     font-size:3vw;
+}
+a{
+    color: rgb(17, 180, 230);
+    text-shadow: 3px 2px rgb(235, 3, 204);
+    font-size: 27px;
+    font-family: courier;
+    background-color:rgb(0, 0, 0);
 }
