@@ -1,12 +1,66 @@
 
-body
+body 
+
 {
     background-image: url("3.png");
     font-size: 26px;
     font-style: oblique;
     
-   } 
-{margin:25px;}
+   }  
+
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ul.c {
+    list-style-type: upper-roman;
+}
+
+ul.d {
+    list-style-type: lower-alpha;
+}
+
+    h1 {
+    text-shadow: 3px 2px rgb(247, 5, 5);
+}
+    p.oblique {
+    font-style: oblique;
+    border-style: dotted;
+    border-color: red green blue yellow;
+    font-size:2vw;
+    font-variant: small-caps;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 12px;
+    color: rgb(0, 0, 0);;
+}
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table#t01 th {
+    background-color: rgb(250, 9, 9);
+    color: rgb(255, 255, 255);
+}
+
 
 div.polaroid {
   width: 100%;
@@ -19,64 +73,48 @@ div.container {
   text-align: center;
   padding: 10px 20px;
 }
- 
+
+h2, h3, h4, h5, h6 {
+    font-family: courier;
+    text-align: center;
+    font-size:3vw;
+    border-style: double;
+    border-width: 15px;
+}
+
 h1 {
     color: black;
     text-align: center;
     font-family: Georgia;
     font-size: 38px;
    
- 
-    
 }
 
 h2 {
     color: rgb(158, 6, 6);
-    font-family: courier;
-    font-size: 35px;
-    text-align: center;
-    font-size:3vw;
-    border-style: double;
-    border-width: 15px;
-
+       font-size: 35px;
+      
  
 }
 h3 {
     color: rgb(136, 52, 4);
-    font-family: courier;
-    font-size: 32px;
-    text-align: center;
-    font-size:3vw;
-    border-style: double;
-    border-width: 15px;
-
+      font-size: 32px;
+    
 }
 h4 {
     color: rgb(117, 100, 0);
-    font-family: courier;
     font-size: 30px;
-    border-style: double;
-    border-width: 15px;
-    text-align: center;
-    font-size:3vw;
+   
 }
 h5 {
     color: rgb(43, 107, 0);
-    font-family: courier;
     font-size: 29px;
-    border-style: double;
-    border-width: 15px;
-    text-align: center;
-    font-size:3vw;
+  
 }
 h6 {
     color: rgb(20, 165, 170);
-    font-family: courier;
-    font-size: 27px;
-    border-style: double;
-    border-width: 15px;
-    text-align: center;
-    font-size:3vw;
+      font-size: 27px;
+   
 }
 a{
     color: rgb(17, 180, 230);
