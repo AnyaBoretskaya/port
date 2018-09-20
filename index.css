@@ -120,13 +120,14 @@ h6 {
 a{
     font-size: 27px;
     font-family: courier;
+}
       a:link {
         color: green;
         background-color: transparent;
         text-decoration: none;
     }
     a:visited {
-        color: pink;
+        color: rgb(25, 7, 105);
         background-color: transparent;
         text-decoration: none;
     }
@@ -140,4 +141,16 @@ a{
         background-color: transparent;
         text-decoration: underline;
     }
+
+b:link, b:visited {
+    background-color: #f01000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+b:hover, b:active {
+    background-color: red;
 }
