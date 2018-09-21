@@ -9,7 +9,7 @@ body
    }  
 
 ul.a {
-    list-style-type: circle;
+    list-style-type: circle New;
 }
 
 ul.b {
@@ -57,11 +57,11 @@ table#t01 tr:nth-child(even) {
 }
 
 table#t01 th {
-    background-color: rgb(250, 9, 9);
+    background-color: rgb(202, 130, 21);
     color: rgb(255, 255, 255);
 }
 
-{ margin:25px;}
+body { margin:25px;}
 
 div.polaroid {
   width: 100%;
@@ -76,7 +76,7 @@ div.container {
 }
 
 h2, h3, h4, h5, h6 {
-    font-family: courier;
+    font-family: Lucida Console;
     text-align: center;
     font-size:3vw;
     border-style: double;
@@ -117,40 +117,23 @@ h6 {
       font-size: 27px;
    
 }
+
 a{
     font-size: 27px;
-    font-family: courier;
+    font-family: courier New;
+    color: rgb(0, 0, 0);
 }
-      a:link {
-        color: green;
-        background-color: transparent;
-        text-decoration: none;
-    }
-    a:visited {
-        color: rgb(25, 7, 105);
-        background-color: transparent;
-        text-decoration: none;
-    }
-    a:hover {
-        color: red;
-        background-color: transparent;
-        text-decoration: underline;
-    }
-    a:active {
-        color: yellow;
-        background-color: transparent;
-        text-decoration: underline;
-    }
 
-b:link, b:visited {
-    background-color: #f01000;
-    color: white;
-    padding: 14px 25px;
+
+.one
+    a:link, a:visited {
+    background-color: #e7b510e8;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
 }
 
-b:hover, b:active {
-    background-color: red;
+a:hover, a:active {
+    background-color: rgba(209, 230, 16, 0.582);
 }
